@@ -1,7 +1,14 @@
-
+// import { useEffect, useState } from "react"
+import "./Product.css"
+import CardProduct from "../CardProduct/CardProduct"
 function Product(){
+  
+   
     return(
-        <h1>mooooooath</h1>
+    <div className="container-products">
+        <CardProduct/>
+        
+    </div>
     )
 }
 export default Product

@@ -15,11 +15,13 @@ const Header = () => {
   return (
     <Fragment>
     <header className="header">
-      <div className="logo">Logo</div>
+      <div className="logo">
+      2klNa
+      </div>
       <nav className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <ul>
         <li><Link to={'/'}>Home</Link></li>
-          <li><a href="/about">About Us</a></li>
+          <li><a href="#AboutUs">About Us</a></li>
           <li><Link to={'/products'}>Products</Link></li>
           <li><Link to={'/Feedback'}>Feedback</Link></li>
         </ul>

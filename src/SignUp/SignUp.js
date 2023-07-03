@@ -39,7 +39,7 @@ export default function SignUp() {
 }
   return (
     <Fragment>
-    <form onsu>
+    <form >
         <label htmlFor="name">UserName:</label>
         <input 
           type="text"

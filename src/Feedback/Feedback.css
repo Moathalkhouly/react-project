@@ -1,0 +1,119 @@
+.BigBig {
+  min-height: 80vh;
+ }
+ .SHOWPost {
+   margin-left: 20rem;
+   padding: 20px 30px;
+   border-bottom: 1px solid #fffdfd;
+   border: 1px solid black;
+   width: 50rem;
+   
+
+ }
+ .BigElement {
+   display: flex;
+   margin-top: 10px;
+   margin-left: 10px;
+   gap: 10px;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 10px;
+  
+ }
+ 
+ .Name input,
+ .NewPost input {
+   margin-top: 10px;
+   padding-right: 10px;
+   height: 5vh;
+   width: 25vw;
+  
+   text-align: center;
+ }
+ .NewPost {
+   gap: 10px;
+ }
+ form {
+   display: flex;
+   flex-direction: column;
+ }
+ button {
+   margin-top: 10px;
+ }
+ .Mother-of-map {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+ .PostUser {
+   display: flex;
+   gap: 20px;
+ }
+ .PostUserImage {
+   height: 60px;
+   width: 60px;
+   border-radius: 30px;
+   box-shadow: 0 0 10px rgb(139, 104, 104);
+ }
+ .PostCreateComment {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+ .PostCreateComment button {
+   border: none;
+   outline: none;
+   padding: 10px 20px;
+   border-radius: 40px;
+   cursor: pointer;
+   background-color:hsl(113, 32%, 46%) ;
+ }
+ .BigBig form button{
+     border: none;
+     outline: none;
+     width:100px;
+     padding: 10px 20px;
+     border-radius: 40px;
+     cursor: pointer;
+     background-color: hsl(113, 32%, 46%);
+     color:rgb(0, 0, 0);
+ }
+ .btns{
+    display:flex;
+    gap:5px
+ }
+ .btns button{
+     border: none;
+     outline: none;
+     width:100px;
+     padding: 10px 20px;
+     border-radius: 40px;
+     cursor: pointer;
+     background-color:hsl(113, 32%, 46%);
+     color:rgb(0, 0, 0);
+ 
+ }
+ .CommentsStyle{
+     display:flex;
+     gap:10px;
+     margin-top: 10px;
+ 
+ 
+ }
+ .CommentStyle{
+     display: flex;
+     flex-direction: column;
+ }
+ .Time{
+     color:gray;
+ }
+ @media(max-width: 768px) {
+     .CommentsStyle{
+         display:flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+ 
+ 
+ 
+     }
+ }

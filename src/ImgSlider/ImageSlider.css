@@ -1,0 +1,9 @@
+.container-imge{
+    margin-top: 10px;
+    width: 460vw;
+    height: 500px;
+}
+.container-imge img{
+    width: 100%;
+    height: 100%;
+}

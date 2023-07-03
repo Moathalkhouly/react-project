@@ -7,11 +7,11 @@ const testimonials = [
     author: "John Doe",
   },
   {
-    text: "Using MindShare has allowed me to connect with like-minded individuals and gain valuable insights. It's a great place to explore diverse perspectives and expand my knowledge.",
+    text: "Using MindShare has allowed me to connect with like-minded individuals and gain valuable insights. It's a great place to explore diverse perspectives .",
     author: "Jane Smith",
   },
   {
-    text: "I highly recommend MindShare to anyone looking for an inspiring and supportive community. It has become my go-to platform for sharing, discovering thought-provoking content.",
+    text: "I highly recommend MindShare to anyone looking for an inspiring and supportive community. It has become my go-to platform for sharing, discovering .",
     author: "Alex Johnson",
   },
 ];

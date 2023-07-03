@@ -1,5 +1,5 @@
 
-
+import'./ImageSlider.css'
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -17,19 +17,19 @@ const ImageSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
   };
 
   return (
     <Slider {...settings}>
-      <div >
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="Image 1" />
+      <div className='container-imge' >
+        <img src="https://st2.depositphotos.com/1017986/7904/i/450/depositphotos_79046312-stock-photo-close-up-of-different-food.jpg" alt="Image 1" />
+      </div >
+      <div  className='container-imge'>
+        <img src="https://thedailyaesthetics.com/wp-content/uploads/image-2.jpeg" alt="Image 2" />
       </div>
-      <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="Image 2" />
-      </div>
-      <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="Image 3" />
+      <div  className='container-imge'>
+        <img src="https://img.taste.com.au/R_dRdL7V/taste/2022/09/healthy-tacos-recipe-181113-1.jpg" alt="Image 3" />
       </div>
     </Slider>
   );
