@@ -21,7 +21,9 @@ function Feedback() {
       comments: [],
     });
     setPosts([...posts, { Name, post, image1, comments: [] }]);
+    // in the code above it show the post in the page when its re-renderd
   };
+  //  iam using use uffect with depndncy to fetch data from json server and set the data in (posts)
   useEffect(() => {
     axios
       .get("http://localhost:5001/Posts")
@@ -32,11 +34,11 @@ function Feedback() {
       .catch((error) => {
         console.log(error);
       });
-  }, [post, refresh]);
+  }, [refresh]);
 
   return (
     <div>
-      <div className="BigBig">
+      <div className="container-feedback">
         <div className="BigElement">
           <h2>Your Feedback is Important</h2>
           <form onSubmit={FormSubmit}>
@@ -63,7 +65,7 @@ function Feedback() {
             <button>Submit</button>
           </form>
         </div>
-        <div className="Mother-of-map">
+        <div className="all-map">
           {posts.map((post) => (
             <div key={post.id} className="SHOWPost">
               <div className="PostUser">
@@ -106,6 +108,7 @@ function Feedback() {
                       text: comment,
                       date: new Date().toLocaleString(),
                     };
+                    //  here iam oppsite the value of refresh to re-render (use effect because use effect depndncy with refresh value  )
                     axios.put(`http://localhost:5001/Posts/${post.id}`, {
                       ...post,
                       comments: [...post.comments, commentData],
@@ -115,19 +118,18 @@ function Feedback() {
                 >
                   Comment
                 </button>
-               
               </div>
               <div className="CommentsStyle">
-                  {post.comments.map((item) => {
-                    return (
-                      <div className="CommentStyle">
-                        <img src={item.img} alt="" className="PostUserImage" />
-                        <div>{item.text}</div>
-                       <div className="Time">  {item.date}</div>
-                      </div>
-                    );
-                  })}
-                </div>
+                {post.comments.map((item) => {
+                  return (
+                    <div className="CommentStyle">
+                      <img src={item.img} alt="" className="PostUserImage" />
+                      <div>{item.text}</div>
+                      <div className="Time"> {item.date}</div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           ))}
         </div>

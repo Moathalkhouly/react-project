@@ -295,11 +295,57 @@
   ],
   "Posts": [
     {
-      "Name": "moath",
-      "post": "new post",
-      "image1": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1000.jpg",
-      "comments": [],
+      "Name": "faten",
+      "post": "goood",
+      "image1": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/275.jpg",
+      "comments": [
+        {
+          "img": "https://avatars.githubusercontent.com/u/77556501",
+          "text": "like",
+          "date": "7/4/2023, 8:54:12 AM"
+        },
+        {
+          "img": "https://avatars.githubusercontent.com/u/55070362",
+          "text": "like1",
+          "date": "7/4/2023, 8:54:18 AM"
+        },
+        {
+          "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+          "text": "ooo",
+          "date": "7/4/2023, 11:08:48 AM"
+        }
+      ],
       "id": 1
+    },
+    {
+      "Name": "omer",
+      "post": "like",
+      "image1": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1137.jpg",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "Name": "moath",
+      "post": "new",
+      "image1": "https://avatars.githubusercontent.com/u/69563219",
+      "comments": [
+        {
+          "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/799.jpg",
+          "text": "hhhhhhhh",
+          "date": "7/4/2023, 11:53:43 AM"
+        },
+        {
+          "img": "https://avatars.githubusercontent.com/u/95344862",
+          "text": "kkkkkkkkk",
+          "date": "7/4/2023, 11:54:00 AM"
+        },
+        {
+          "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1212.jpg",
+          "text": "ggggggggg",
+          "date": "7/4/2023, 12:38:49 PM"
+        }
+      ],
+      "id": 3
     }
   ]
 }

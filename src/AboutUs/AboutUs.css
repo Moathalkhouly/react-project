@@ -1,6 +1,6 @@
 .about-us-section {
     margin-top: 50px;
-    background-color: #f8f8f8;
+    background-color: #E8F5E9;
     padding: 30px;
     text-align: center;
   }
@@ -16,5 +16,7 @@
     color: #666;
     line-height: 1.5;
     margin-bottom: 20px;
+    max-width: 40%;
+    margin: auto;
   }
   
